@@ -43,7 +43,7 @@ const Blog = () => {
           {blogs.map(blog => (
             <div key={blog._id} className="border py-4 px-4 rounded-md bg-[#f5f4f4] shadow-md shadow-gray-400 ">
               <div className=' flex justify-center items-center mb-2'>
-                <img className='w-full' src={`/Images/${blog.image}`} alt=''></img>
+                <img className='w-full' src={`https://blogger-server-api.onrender.com/Images/${blog.image}`} alt=''></img>
               </div>
               <h2 className=" text-base sm:text-xl font-semibold mb-2">{blog.title}</h2>
               <div className='bg-gray-300 mb-2 h-[0.01rem] w-full'></div>
